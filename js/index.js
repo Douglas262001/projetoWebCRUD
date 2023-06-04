@@ -81,7 +81,7 @@ app.post('/alunos', (req, res) => {
           return res.status(500).json({ message: 'Erro ao atualizar aluno' });
         }
 
-        return res.status(200).json(`Carro ${req.params.codigoCarro} atualizado`);
+        return res.status(200).json(`Aluno ${req.params.codigoAluno} atualizado`);
         /*if (err) {
           console.error(err);
           res.status(500).json({ message: 'Erro ao atualizar aluno' });
